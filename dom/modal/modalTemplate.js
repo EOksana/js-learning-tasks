@@ -1,6 +1,7 @@
 const openButton = document.querySelector("#openOverlay");
 const body = document.body;
-const successModal = createModal("The message has been sent, thank you!");
+const successModal = createModal("The massage has been sent, thank you!");
+
 
 openButton.addEventListener("click", (e) => {
   body.appendChild(successModal);
